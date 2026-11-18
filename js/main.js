@@ -175,7 +175,7 @@
   var rules = {
     name: function (v) { return v.length >= 2 ? "" : "Please enter your name."; },
     email: function (v) { return !v ? "Please enter your email address." : /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v) ? "" : "That email address doesn't look right. Example: name@company.com"; },
-    phone: function (v) { return !v || /^[+\d][\d\s()-]{6,}$/.test(v) ? "" : "Please enter a valid phone number, or leave it empty."; },
+    phone: function (v) { return !v ? "Please enter your phone number." : /^[+\d][\d\s()-]{6,}$/.test(v) ? "" : "Please enter a valid phone number."; },
     message: function (v) { return v.length >= 10 ? "" : "Please tell us a little about your project (at least 10 characters)."; }
   };
   function check(input, show) {
