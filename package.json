@@ -1,0 +1,8 @@
+{
+  "name": "gemini-digital-solution-website",
+  "private": true,
+  "type": "module",
+  "description": "Static site. Only needed if you edit css/ or js/ and want to refresh the minified files.",
+  "scripts": { "build": "node tools/build.mjs" },
+  "devDependencies": { "esbuild": "^0.25.0" }
+}
