@@ -34,6 +34,12 @@
   ],
   "redirects": [
     {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "geminidigisolution.link" }],
+      "destination": "https://www.geminidigisolution.link/$1",
+      "permanent": true
+    },
+    {
       "source": "/index",
       "destination": "/",
       "permanent": true
