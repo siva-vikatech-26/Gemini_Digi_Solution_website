@@ -11,7 +11,7 @@ window.SITE_CONFIG = {
   // Contact form: paste a Formspree (or similar) URL to receive enquiries by email,
   // e.g. "https://formspree.io/f/abcdwxyz". If empty and whatsapp is set, the form
   // opens WhatsApp with the enquiry. If both are empty, it only shows a thank-you.
-  formEndpoint: "",
+  formEndpoint: "https://formsubmit.co/info@vikatechnologies.in",
 
   social: {
     linkedin: "",       // full URLs, e.g. "https://www.linkedin.com/company/..."
